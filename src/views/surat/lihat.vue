@@ -89,7 +89,9 @@ onMounted(async () => {
         <div class="card border-0 rounded shadow">
           <div class="card-body">
             <h3 class="card-title">File PDF</h3>
-            <VuePdfEmbed :source="pdfSurat" style="width: 100%; height: 100%;" /> 
+            <div class="pdf-container">
+              <VuePdfEmbed :source="pdfSurat" style="width: 100%; height: 100%;" /> 
+            </div>            
           </div>
         </div>
       </div>
@@ -158,6 +160,11 @@ p {
 
 .card {
   margin-bottom: 1rem;
+}
+
+.pdf-container {
+  height: 500px;
+  overflow: scroll;
 }
 
 .container {
