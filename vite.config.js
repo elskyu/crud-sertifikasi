@@ -4,6 +4,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   optimizeDeps: {
-    include: ['@/images/mancing-perkoro.jpeg']
+    include: ['@/images/hima.jpg']
   }
 });

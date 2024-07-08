@@ -17,7 +17,7 @@
   </template>
   
   <script>
-  import imageSrc from '../images/mancing-perkoro.jpeg'; // Gunakan path relatif dari lokasi komponen ini
+  import imageSrc from '../images/hima.jpg'; // Gunakan path relatif dari lokasi komponen ini
   
   export default {
     data() {
@@ -48,7 +48,7 @@
   }
   
   .image img {
-    width: 185px; /* Ganti ukuran sesuai kebutuhan */
+    width: 100px; /* Ganti ukuran sesuai kebutuhan */
     height: auto;
     margin-right: 20px;
   }
